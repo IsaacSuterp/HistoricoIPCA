@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.topo{
+    position: relative;
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 100%;
+}
+
+.centro{
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+.links{
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+
+.centro a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    right: 0;
+}
+
+.topo img{
+    position: relative;
+    height: 70px;
+    top: 15px;
+}
+
+.topo h1{
+    position: absolute;
+    left: 90px;
+    font-size: 27px;
+    top: 15px;
+}
+
+.topo p{
+    position: absolute;
+    left: 90px;
+    top: 55px;
+    color: #2f86d6;
+}
+
+.apresentacao{
+    background-color: #2f86d6;
+    width: 100%;
+    height: 800px;
+}
+
+.apresentacao p,
+.apresentacao h2{
+    position: relative;
+    color: white;
+    top: 500px;
+    padding-bottom: 20px;
+    width: 40%;
+    left: 0;
+    top: 300px;
+}
+
+.texto1{
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.apresentacao img{
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+
+.rodape1{
+    position: relative;
+    background-color: #233032;
+    width: 100%;
+    height: 120px;
+}
+
+.rodapec{
+    position: relative;
+    color: white;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.rodapec h2,
+.rodapec p{
+    position: relative;
+    left: 0;
+    top: 20px;
+    padding-bottom: 10px;
+}
+
+#tab{
+    position: absolute;
+    color: white;
+    right: 0px;
+    text-decoration: none;
+    background-color: #2f86d6;
+    padding: 15px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    top: 33px;
+}
+
+.rodapec img{
+    position: relative;
+    right: 8px;
+    top: 2px;
+}
+
+.informacoes{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 450px;
+}
+
+.informacoes{
+    color: black;
+}
+
+.informacoes h2{
+    text-align: center;
+    max-width: 900px;
+    margin: 100px auto;
+    font-size: 30px;
+}
+
+.info{
+    position: relative;
+    width: 1024px;
+    left: 0;
+    right: 0;
+    margin: 0 0 0 350px;
+}
+
+.escolher{
+    color: #2f86d6;
+}
+
+.info img{
+    position: absolute;
+    width: 100px;
+}
+
+.img1{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
+    top: 50px;
+}
+
+.img2{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
+    top: 50px;
+    left: 400px;
+}
+
+.img3{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
+    top: 50px;
+    left: 800px;
+}
+
+.inf1{
+    position: absolute;
+    top: -50px;
+    left: 140px;
+}
+
+.inf2{
+    position: absolute;
+    top: -50px;
+    left: 550px;
+}
+
+.inf3{
+    position: absolute;
+    top: -50px;
+    left: 950px;
+}
+
+.seuplano{
+    background-color: #f1f3f7
+    ;
+    width: 100%;
+    height: 750px;
+}
+
+.tabpreco{
+    position: relative;
+    width: 1024px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.tabpreco span{
+    color: #2f86d6;
+}
+
+.tabpreco h2{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+table img{
+    width: 100px;
+}
+
+table{
+    position: absolute;
+    width: 1024px;
+    text-align: center;
+    margin-top: 100px;
+    border: 2px solid rgb(231, 231, 231);
+    background-color: white;
+    box-shadow: 2px 2px 50px blue;
+}
+
+.indicacao{
+    font-size: 10px;
+    color: rgb(58, 57, 57);
+}
+
+tbody td, thead th{
+    border-left: 1px solid rgb(231, 231, 231);
+    border-right: 1px solid rgb(231, 231, 231);
+}
+
+.l1, .l2, .l3{
+    background-color: rgb(231, 231, 231);
+}
+
+tbody td{
+    padding: 10px 0;
+    font-size: 12px;
+    border-bottom: 2px solid rgb(231, 231, 231);
+}
+
+.rodape2{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: #2f86d6;
+    color: white;
+}
+
+.rodape2 div{
+    position: relative;
+    max-width: 1024px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.rodape2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.rodape2 div a{
+    position: absolute;
+    right: 0;
+    background-color: black;
+    padding: 10px 20px 10px 35px;
+    border-radius: 10px;  
+    font-size: 18px;
+    top: 35px;
+}
+
+.rodape2 h2{
+    position: absolute;
+    font-size: 28px;
+    top: 20px;
+}
+
+.rodape2 img{
+    position: absolute;
+    right: 190px;
+    top: 15px;
+}
+
+.rodapeult{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 300px;
+}
+
+.rodapeult div{
+    position: relative;
+    max-width: 1024px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rodapeult img{
+    position: absolute;
+    height: 70px;
+    left: 350px;
+    top: 35px;
+}
+
+.rodapeult h1{
+    position: absolute;
+    left: 430px;
+    top: 32px;
+}
+
+#hosp{
+    position: absolute;
+    left: 430px;
+    top: 70px;
+    color: #2f86d6;
+}
+
+#contat{
+    position: absolute;
+    top: 150px;
+}
+
+.copy{
+    position: relative;
+    background-color: aliceblue;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+.copy p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: 0 auto;
+}
+
+.copy span{
+    font-weight: bold;
+    color: #2f86d6;
+}
